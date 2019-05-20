@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+		<head>
+			<title>Contact</title> 
+			<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	div.scrollmenu {
+    	background-color: #333;
+    	overflow: auto;
+   	 white-space: nowrap;
+}
+
+	div.scrollmenu a {
+   	 display: inline-block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px;
+    	text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+#pc{
+	border:1px solid white;
+	float:left;
+	padding:50px;
+	margin-right:300px;
+	width:600px;
+	height:600px;
+	background-color:teal;
+	color:white;
+	font-family:verdana;
+	font-size:20px;
+	border-top-left-radius: 80px 50px;
+	border-bottom-right-radius: 80px 50px;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+   	 animation: mymove 5s infinite;
+	
+}
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+
+</style>
+<div class="scrollmenu">
+  <a href="Home.html">Home</a>
+  <a href="Social.html">Social</a>
+  <a href="contact.html">Contact</a>
+  <a href="About.html">About</a>
+  <a href="Gallery.html">Gallery</a>
+  
+</div>
+		</head>
+	
+	
+<center>
+<header id="hc">
+<h1>Contact Us</h1>
+</header>
+<body>
+
+   <section id="sc" >
+
+
+	<p id="pc">Below is my emergency contact information:<br><br>Please fill in the form on the right side for me to contact you.<br><br>
+	Please contact me on 0762046526 after hours if the form is unable to submit your details to me.<br><br>
+	Contact Mr Thulare on 0724569826 during the week and within working hours(0800 to 16:00)</p>
+    <form id="form1" method="POST" action="mailto:thulareh3@gmail.com" enctype="text/plain" width="1000" height="1000">
+	<br>First name: <input type = "text" name = "first_name" />
+         <br><br>
+         Last name: <input type = "text" name = "last_name" /><br><br>
+	Email addr:<input type="email" name="email" required/><br><br>
+	  Company :<input type = "text" name = "company" required/><br><br>
+	Phone no  :<input type="tel" name="phone"><br><br>
+	Website	  :<input type="text" name="phone"><br><br>
+
+ 	Description :
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter description here...
+         </textarea><br><br>
+
+
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "submit" name = "ok" value = "OK" /><br><br><br><br>
+         <input type = "image" name = "imagebutton" src ="logo.jpg" / width="300" height=300">
+
+<br>
+<br>
+<br>
+<br>
+  </form>
+ </section>
+</body>
+</div>
+
+
+<center>
+<footer id="fc">
+<b><a href="#top" class="top">link to top</a><b>
+
+<address>
+Written by <a href="mailto:thulareh3@gmail.com">Thulare Herman</a>.<br>
+Visit us at:<br>
+Thulareherman.com<br>
+Box 433, Midrand<br>...
+copy-right reserved
+</address>
+</footer>
+	</body>
+
+
+</html>
